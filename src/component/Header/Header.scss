@@ -1,0 +1,67 @@
+.head {
+  width: 100%;
+  color: #fff;
+}
+
+.head-vertical {
+  background-color: #53a8bb;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.head-center {
+  display: flex;
+  gap: 105px;
+  align-items: center;
+}
+
+.head-btn {
+  outline: none;
+  padding: 13px 22px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 35px;
+  border: 1px solid #ffffff;
+  background-color: #53a8bb;
+  cursor: pointer;
+  transition: color 0.4s ease, border-color 0.4s ease; 
+  &:hover {
+    color: #436389;
+    border-color: #436389;
+  }
+}
+
+.head-hover {
+  cursor: pointer;
+  transition: color 0.2s ease;
+  &:hover {
+    color: #436389;
+  }
+}
+
+.head-hover {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.burgerMenu{
+  display: none;
+  transition: color 0.3s ease;
+}
+
+.head-hover:hover {
+  color: #436389;
+  transform: translateY(-3px);
+}
+
+.link-text {
+  font-size: 20px;
+  font-weight: 600;
+}

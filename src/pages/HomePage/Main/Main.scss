@@ -1,0 +1,36 @@
+.seac1 {
+  margin-top: 52px;
+  margin-bottom: 70px;
+}
+
+.seac1__head h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.seac1__head p {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 62px;
+}
+
+.seac1__slide {
+  z-index: -100;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide_panel {
+  width: 1280px;
+  display: flex;
+}
+
+.slide_panel img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
+}
+.slide_panel.explode img {
+  opacity: 0;
+}
+

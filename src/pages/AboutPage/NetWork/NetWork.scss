@@ -1,0 +1,21 @@
+.ulList {
+    list-style-type: none; 
+  }
+  
+.liList {
+    position: relative; 
+    padding-left: 42px; 
+    margin-top: 35px;
+  }
+  
+.liList:before {
+    content: ''; 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #53A8BB;
+    position: absolute;
+    left: 0;
+    top: 2px; 
+  }
+  

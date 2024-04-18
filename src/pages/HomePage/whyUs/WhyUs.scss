@@ -1,0 +1,18 @@
+.seac5-content {
+  h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #000;
+  }
+  p {
+    color: #000;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+.seac5-card{
+    display: grid;
+    grid-template-columns: repeat(2, 650px);
+}

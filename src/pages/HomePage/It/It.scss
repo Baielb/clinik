@@ -1,0 +1,31 @@
+article {
+  .seac2__cards_img {
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  .seac2__card h3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .article-cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .seac2__cards_img {
+    text-align: center;
+  }
+  .seac2__card h3 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .seac2__card p {
+    margin-top: 20px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
